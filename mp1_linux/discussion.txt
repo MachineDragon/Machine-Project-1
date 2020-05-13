@@ -1,0 +1,63 @@
+Michael Hajjar
+Machine Project 1
+CS341
+
+Question 1.)
+
+I tested my code several times using the make tutor function which displayed the errors that I needed to fix.
+I found out many things trying to test out code, one of them for example is that you cannot test make tutor in another folder 
+than the one already created in the cs341 folder, 
+I tried to create a test folder with different code for cmds.c to run but when 
+I tried running make tutor it would go back to my original cmds file from the cs341 folder. 
+I also used visual studio code for error messages and fixing up my code as it is easier to edit in those programs 
+rather then on Unix and transfered it over to my cs341 director. I learned a lot about using Unix and unix commands.
+
+
+2.)  
+
+If you call for a memory display of an address that does not correspond to a  memory address then you get Exception 14 at EIP=31313131: page fault. 
+On UNIX I get segmentation fault The code gives different outputs on SACP and UNIX 
+
+
+3.)
+
+a.) xyz is stored in 0804a07c 
+
+b.) pxyz is in location 0804a080 and the value is 6
+
+c.) memory address of cmds is 0804a040, the memory address for initial is 0804830c in the usyms file and ends at 0804a088. When I use md m i get 0804896a and md for d i get 0000000d.
+
+d.) You can't change it while it's running 
+
+
+
+4.)
+
+The code starts at 00100100 and ends at 001021c8 on unix.
+
+
+5.) 
+
+In Unix you get a segmentation fault, and in SACP the command line will stop working and you will get exception 14.
+
+
+6.) 
+
+The command was not found in the program
+
+
+7.)
+
+Using md to get the memory addresses of inputs and ms to change their memory addresses. 
+I have had so many glitches in VM after hitting the ~d command starting over so many times until 
+I figured out the exact way to make it not glitch, by opening tutor up after downloading linux, 
+not having it open at the same time which was what I was doing and hitting ctr send alt delete.
+
+8.)
+
+I had to relearn addresses and pointers for c, as well as inputs and %values to input chars and numbers to output them, 
+it took a while to setup the vm without crashing or glitching. 
+The hardest part was cmds and programming it took many days, 
+I had to delete the mp1_linux and start over because when I put in md I wasn't getting any output, 
+this was the most time consuming part.
+
